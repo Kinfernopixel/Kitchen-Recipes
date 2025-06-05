@@ -1,14 +1,17 @@
-# Kitchen Recipes
+🍽️ Kitchen Recipes
 
-This project is a small static website showcasing a few simple recipes. It was created for learning and demonstration purposes.
+Kitchen Recipes is a lightweight static website designed to showcase a collection of simple, delicious recipes. This project was built as a hands-on exercise in HTML and CSS, and serves as a demonstration of clean web design and file organization.
 
-## Project Structure
+📁 Project Structure
 
-- `index.html` - Home page listing the recipes.
-- `recipes/` - Folder containing an HTML page for each recipe.
-- `images/` - Images used by the recipe pages.
-- `styles.css` - Shared style sheet applied across all pages.
+index.html – The homepage, featuring a curated list of recipes.
+recipes/ – A directory containing individual HTML pages for each recipe.
+images/ – A collection of images visually enriching the recipe pages.
+styles.css – A centralized stylesheet providing consistent styling across the site.
 
-## Opening the Site
+🚀 How to View the Site
+To explore the website locally:
 
-You can open the site locally by opening `index.html` in your web browser. Each recipe links to its own page within the `recipes/` directory. No web server is required; simply double-click the file or open it through your editor's live preview.
+Open the index.html file in any modern web browser.
+Click on any recipe to view its detailed page within the recipes/ folder.
+No local server setup is required — just double-click the file or use your code editor’s live preview feature.
