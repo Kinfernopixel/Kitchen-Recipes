@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;600&display=swap");
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -10,8 +12,8 @@ h1 {
 }
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #faf7f2;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background: linear-gradient(#faf7f2, #f2e8d8);
     color: #333;
     line-height: 1.6;
     min-height: 100vh;
@@ -19,13 +21,15 @@ body {
 
 /* Header styles */
 header {
-    background-color: #fff8ec;
+    background: linear-gradient(135deg, #fff8ec, #f8e2c4);
     padding: 32px 0 16px 0;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-bottom: 2px solid #f2e3c6;
 }
 
 header h1 {
+    font-family: "Lobster", cursive;
     font-size: 2.5rem;
     color: #b85c38;
     letter-spacing: 2px;
@@ -44,15 +48,18 @@ nav {
 }
 
 nav a {
+    padding: 8px 12px;
+    border-radius: 4px;
     color: #b85c38;
     text-decoration: none;
     margin: 0 18px;
     font-weight: 500;
-    transition: color 0.2s;
+    transition: color 0.2s, background-color 0.2s;
 }
 
 nav a:hover {
-    color: #e07a5f;
+    background-color: #b85c38;
+    color: #fff;
 }
 
 /* Main content styles */
@@ -70,8 +77,9 @@ main {
 }
 
 .recipe-card {
-    background: #fff;
+    background: linear-gradient(#ffffff, #fdf5ed);
     border-radius: 12px;
+    border: 1px solid #f0ded0;
     box-shadow: 0 2px 12px rgba(184, 92, 56, 0.07);
     padding: 24px;
     transition: transform 0.15s, box-shadow 0.15s;
@@ -83,6 +91,7 @@ main {
 }
 
 .recipe-card h2 {
+    font-family: "Lobster", cursive;
     color: #b85c38;
     font-size: 1.3rem;
     margin-bottom: 10px;
@@ -99,7 +108,7 @@ footer {
     padding: 24px 0 12px 0;
     color: #a68a64;
     font-size: 0.95rem;
-    background: #fff8ec;
+    background: linear-gradient(135deg, #fff8ec, #f8e2c4);
     border-top: 2px solid #f2e3c6;
     margin-top: 40px;
 }
@@ -107,6 +116,7 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 600px) {
     header h1 {
+    font-family: "Lobster", cursive;
         font-size: 2rem;
     }
     main {
