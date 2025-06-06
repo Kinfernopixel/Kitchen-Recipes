@@ -4,9 +4,8 @@ Kitchen Recipes is a lightweight static website designed to showcase a collectio
 
 📁 Project Structure
 
-index.html – The homepage, featuring a curated list of recipes.
+index.html – The homepage featuring a curated list of recipes.
 recipes/ – A directory containing individual HTML pages for each recipe.
-images/ – A collection of images visually enriching the recipe pages.
 styles.css – A centralized stylesheet providing consistent styling across the site.
 
 🚀 How to View the Site
